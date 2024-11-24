@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# **AdminRTR**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Project Description**
+AdminRTR is an implementation of AdminLTE using ReactJS and React Router. Its primary goal is to provide a dynamic and easy-to-use administration panel by leveraging ReactJS components integrated with AdminLTE.
 
-## Available Scripts
+## **Technologies Used**
+- **ReactJS**: Core library for building the user interface.
+- **TypeScript**: Provides static typing for better code maintainability and safety.
+- **Jest**: Framework for unit testing.
+- **Bootstrap**: CSS framework for styling.
+- **AdminLTE**: A Bootstrap-based theme for admin panels.
+- **NPM**: Package manager.
+- **NVM**: Node Version Manager for managing Node.js versions.
 
-In the project directory, you can run:
+## **Prerequisites**
+Before starting, ensure you have the following installed:
+- **NVM** (Node Version Manager)
+- **NPM** version `20.18.0`
 
-### `npm start`
+Verify that Node.js and NPM are correctly configured using NVM.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## **Installation**
+You can install AdminRTR in two ways:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **Clone the repository**:
+```bash
+git clone https://github.com/rstriquer/adminrtr.git
+cd adminrtr
+npm install
+```
 
-### `npm test`
+2. **Install directly via NPM**
+```bash
+npm install rstriquer/adminrtr
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Running the Project**
+After installation, you can run the project just like any other ReactJS app:
 
-### `npm run build`
+```bash
+npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The development server will start, and the application will be accessible at `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Contributing**:
+Contributing to AdminRTR is simple:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open issues on the GitHub repository to report bugs or suggest improvements.
+2. Fork the repository, develop your solution or feature, and submit a pull request for review.
+Follow best practices and ensure your code is well-tested before submission.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **License**
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
